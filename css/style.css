@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    position: relative;
+}
+
+body{
+    margin-bottom: 100px;
+}
+
+.navbar-toggler .fas{
+    color: white;
+}
+
+.jumbotron{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/pabrik.png);
+    background-size: cover;
+    color: #fff;
+    height: 400px;
+}
+
+.jumbotron h1{
+    font-family: 'Open Sans', sans-serif;
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.jumbotron button{
+    width: 200px;
+    text-transform: uppercase;
+}
+
+/* About us */
+
+.history .col-lg-6 h5{
+    text-transform: uppercase;
+    color: #3ae374;
+    animation: fadeOut 5s;
+}
+
+@keyframes fadeOut{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+/* Services produt */
+#service h5{
+    color: grey;
+}
+
+#service h2{
+    font-weight: bold;
+}
+
+.services .card-body{
+    border-radius: 0;
+    transition: all 0.3s ease-out;
+    box-shadow: 0 10px 20px 4px rgba(0,0,0,0.7);
+    padding: 2.5rem;
+}
+
+#service .card-body{
+    background-color: #4cd137;
+}
+
+#service .card-body:hover{
+    background-color: lightblue;
+    color: red;
+}
+
+#service .card-body .fas{
+    font-size: 50px;
+    color: white;
+    margin-top: 20px;
+}
+
+#service .card-body h6{
+    font-weight: bold;
+}
+
+.history-service{
+    background-color: #000;
+}
+
+
+.history-service p{
+    color: #fff;
+}
+
+.history-service .col-lg-6 h5{
+    margin-top: 20px;
+    color: #2ecc71;
+    animation: fadeOut;
+    text-transform: uppercase;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+#team .card-body{
+    background-color: #ecf0f1   ;
+}
+
+#team h5{
+    font-size: 20px;
+    color: #1e90ff;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#team p{
+    font-weight: bold;
+    color: #000;
+}
+
+#team .fa-linkedin{
+    color: #3498db;
+}
+
+#team .fa-github{
+    color: #131418;
+}
+
+#team .fa-facebook{
+    color: #3b5999;
+}
+
+#about .fas{
+    font-size: 50px;
+}
+
+
+#about h6{
+    font-size: 20px;
+}
+
+.contact{
+    min-height: 800px;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    background-color: #333;
+}
+
+footer p{
+    color: #eee;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 60px;
+}
